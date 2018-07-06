@@ -2,5 +2,7 @@
 personal_web<br>
 这是一个php+mysql+jquery编写的论坛网站<br>
 模块分别有：<br>
-1. 登陆模块<br>
+1. 登陆/注册界面<br>
+<img src="./demo_photo/login_register_sample.png"/><br>
 <img src="./demo_photo/login_sample.png"/>
+<img src="./demo_photo/register_sample.png"/>

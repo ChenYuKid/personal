@@ -1,6 +1,6 @@
 # personal
 personal_web<br>
-这是一个php+mysql+jquery编写的论坛网站<br>
+这是一个php+mysql+jquery编写的论坛网站<br><br>
 <strong>登陆/注册界面</strong><br>
 <b>描述：</b><p>该页面有两个功能，即登陆注册功能，可以勾选七天内自动登陆。</p>
 <img src="./demo_photo/login_register_sam.png"/><br>

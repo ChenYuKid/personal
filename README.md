@@ -4,5 +4,4 @@ personal_web<br>
 模块分别有：<br>
 1. 登陆/注册界面<br>
 <img src="./demo_photo/login_register_sam.png"/><br>
-<img src="./demo_photo/login_sam.png"/>
-<img src="./demo_photo/register_sam.png"/>
+<img src="./demo_photo/login_sam.png"/><img src="./demo_photo/register_sam.png"/>

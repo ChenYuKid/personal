@@ -1,0 +1,206 @@
+body{
+	width:100%; 
+	min-width:1000px; 
+	width:expression_r(document.body.clientWidth < 1000 ? "1000px": "auto" ); 
+}
+h1{
+	padding: 12px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 24px;
+}
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+a{
+	line-height: inherit;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+nav{
+	background-color: transparent;
+	height: 50px;
+}
+ul{
+	margin: 0;
+}
+#wrapper{
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/pic04.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header{
+	width: 980px;
+	height: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-box{
+	opacity: 0.8;
+	width: 100%;
+	height: 70px;
+	background-color: #d3d3d3;
+}
+.header-box ul{
+	float: right;
+	list-style: none;
+}
+.logo-box a{
+	color: #000;
+}
+.logo-box a img{
+	width: 45px;
+    height: 45px;
+    margin-right: 8px;
+    border-radius: 2px;
+    vertical-align: top;
+    margin-top: 12.5px;
+}
+.header-box .logo-box{
+	line-height: 70px;
+	font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+#sidebar_trigger a{
+	color: #000;
+	list-style: none;
+}
+.login-box{
+	width: 980px;
+	height: 660px;
+	margin: 0 auto;
+}
+.box-border{
+	float: right;
+	margin-top: 160px;
+	width: 360px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 12px;
+	font-size: 15px;
+}
+.login-form{
+	padding-top: 50px;
+	width: 300px;
+	margin: 0 auto;
+}
+#login-button-box{
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+}
+#account-login-button{
+	cursor: pointer;
+	width: 180px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	line-height: 40px;
+	background-color: #444;
+}
+#register-login-button{
+	cursor: pointer;
+	width: 180px;
+	float: right;
+	color: #333;
+	text-align: center;
+	line-height: 40px;
+	background-color: #d3d3d3;
+}
+#account-name,#register-name{
+	border: solid 1px #ccc;
+	width: 251px;
+	height: 38px;
+	font-size: 14px;
+	padding-left: 42px;
+	padding-right: 5px;
+	background-image: url(../images/icon-account.png);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	margin-bottom: 20px;
+}
+#user-pwd , #user-repeat-pwd , #register-user-pwd{
+	border: solid 1px #ccc;
+	width: 251px;
+	height: 38px;
+	font-size: 14px;
+	padding-left: 42px;
+	padding-right: 5px;
+	background-image: url(../images/icon-lock.png);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	margin-bottom: 20px;
+}
+.remember-box{
+	color: rgb(136,136,136);
+	-webkit-user-select: none;
+	margin-bottom: 73px;
+	margin-top: 20px;
+}
+.register-form .remember-box{
+	margin-bottom: 15px;
+}
+.auto-login{
+	cursor: pointer;
+	font-size: 16px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 15px;
+}
+.login-button , .register-button{
+	height: 40px;
+	width: 300px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	border: 1px solid #0bd;
+	color: #0bd;
+	padding: 0 32px;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #fff;
+}
+footer{
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+ul.share-group{
+	display: block;
+	width: 1080px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
+.copy{
+	padding-bottom: 20px; 
+}
+.register-form{
+	display: none;
+}
+.login-success{
+	float: left;
+	padding: 17px 0 0 30px;
+	color: #fc4848;
+	font-size: 14px;
+}
+.login-success i{
+	font-size: 16px;
+	margin-right: 5px;
+}

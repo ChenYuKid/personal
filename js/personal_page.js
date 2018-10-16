@@ -95,6 +95,15 @@
 			bar.parents(".control-container").fadeOut(500);
 		})
 	}
+	/*function upload_img_pre(){
+		$("upload_input").change(function(){
+			var $file=$(this);
+			var objUrl=$file[0].files[0];
+			var windowUrl=window.URL||window.webkitURL;
+			var dataURL=windowURL.createObjectURL(objUrl);
+			$("userphoto").attr("src",dataURL);
+		})
+	}*/
 	function upload_img(){
 		$("#upload_input_1").click(function(){
 			$("[type=file]").click();
